@@ -1,0 +1,536 @@
+.header1{
+    /* font-family: "Arial Black", "Gadget", sans-serif; */
+  
+    color: #ffffff;
+   margin-top: 20vh;
+   margin-left: 38vw;
+   font-size: 50px;
+   font-weight: 700;
+   position: absolute
+  }
+
+
+  .button1 {
+    background-color: rgb(250, 250, 250);
+    border: none;
+    color: black;
+    padding: 12px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: -620px 2px;
+    margin-left: 25vw;
+    cursor: pointer;  
+    border-radius:2em;
+  /*   box-sizing: border-box; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: 700; */
+    position: absolute
+  
+  }
+
+
+
+  /* .button1:hover {
+    background:  rgb(56, 98, 189);
+    color: rgb(245, 244, 244);
+  } */
+
+
+
+  .button2 {
+    background-color: transparent;
+    border-color:white;
+    /* border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white; */
+    color: white;
+    padding: 10px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: -620px 2px;
+    margin-left: 47vw;
+    cursor: pointer;  
+    border-radius:2em;
+    border-width: 0.4vh;
+  /*   box-sizing: border-box */
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: 700; */
+    position: absolute;
+  
+  }
+
+  .button2:hover {
+    background:  rgb(252, 252, 253);
+    color: rgb(0, 0, 0);
+  }
+
+  .myVideo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+  }
+
+  /* Navbar styles */
+
+  .navbarcontainer{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    list-style-type: none;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 250px
+  }
+
+  .navbaritem{
+    margin-right: 40px;
+    color: #ffffff;
+    font-size: 15px;
+   font-weight: 600;
+  } 
+  .navbaritem a {
+    margin-right: 40px;
+    color: #ffffff;
+    font-size: 15px;
+   font-weight: 600;
+   text-decoration: none
+  }
+
+  .navbaritemhome{
+    margin-right: 1300px;
+    color: #000000;
+   font-size: 15px;
+   font-weight: 600;
+   position: absolute
+  }
+  .navbaritemhome a{
+   color: #000000;
+   font-size: 15px;
+   font-weight: 600;
+   text-decoration: none
+  }
+
+.navbarsinguplogin{
+  margin-right: 20px;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+}
+.navbarsignuplogin a{
+  margin-right: 40px;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none
+}
+
+
+  /* Car brand home page styles */
+
+  .header2{
+  
+    color: #ffffff;
+   margin-top: 10vh;
+   margin-left: 5vw;
+   font-size: 80px;
+   font-weight: 700;
+   position: absolute
+  }
+
+  .brandimage{
+   height: 400px;
+   width: 1300px;
+   /* margin-top: 10vh */
+  }
+
+  .brandimage2{
+    height: 500px;
+    width: 1650px;
+   }
+
+
+  .header3{
+    color: #000000;
+   margin-top: 10vh;
+   margin-left: 4vw;
+   font-size: 46px;
+   font-weight: 700;
+   position: absolute
+  }
+
+  .brandinfo{
+    color: #000000;
+    font-size: 15px;
+    margin-top: 26vh;
+    margin-left: 4vw
+  }
+
+  .header4{
+    color: #000000;
+   margin-top: 10vh;
+   margin-left: 4vw;
+   font-size: 46px;
+   font-weight: 700;
+   /* position: absolute */
+  }
+
+/* .modelcontainer{
+  padding: 0;
+  margin-top: 0vh;
+} */
+
+
+/* Card styles */
+
+.row{
+  margin: 0 -5px
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column{
+  float: left;
+  width: 25%;
+  padding: 10px 50px
+ 
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+.card{
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  height: 600px;
+  width: 400px;
+}
+
+.title{
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 10px
+}
+
+.title2{
+  color: #000000;
+  font-size: 20px;
+  font-weight: 300
+}
+
+.titlespace{
+  padding-right: 10px
+}
+
+.titlespace2{
+  padding-right: 40px;
+  padding-left: 40px
+}
+
+.titlecaption{
+  padding-top: 10px;
+  padding-left: 50px;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 300
+}
+
+
+.titlecaptionspace{
+  padding-top: 10px;
+  padding-left: 180px;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 300
+}
+
+.titlecaptionextra{
+  padding-top: 10px;
+  padding-left: 280px;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 300
+}
+
+.cardimage{
+  height: 400px;
+  width: 400px;
+}
+
+.button3{
+  background-color: #1b68db;
+  border: none;
+  color: white;
+  padding: 12px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-left: 60px;
+  cursor: pointer;  
+  border-radius:2em;
+  position: absolute
+}
+
+.button3:hover{
+  background: #1a5ec4
+}
+
+/* Car show page styles */
+
+.pagetitle{
+  color: #000000;
+  font-size: 70px;
+  font-weight: 500;
+  /* text-align: center */
+}
+
+.pagetitlespace{
+  padding-right: 20px
+}
+
+.pagetitle2{
+  color: #000000;
+  font-size: 60px;
+  font-weight: 500
+}
+
+.pagetitle2space{
+  padding-right: 40px;
+}
+
+.pagetitle3{
+  color: #000000;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center
+}
+
+.modelinfo{
+  color: #000000;
+  font-size: 20px
+}
+
+.modelinfospace{
+  color: #000000;
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.column2{
+  float: left;
+  width: 50%;
+  /* padding: 10px 50px */ 
+  /* padding-bottom: 100px; */
+}
+
+.pageimage{
+  height: 600px;
+  width: 800px;
+  /* padding-bottom: 10px; */
+  padding-left: 40px;
+  /* position: absolute */
+}
+
+.pageimage2{
+  height: 600px;
+  width: 800px;
+  margin-left: 900px;
+  margin-top: -605px;
+  position: absolute
+}
+
+
+.pageimage3{
+  height: 600px;
+  width: 800px;
+  margin-left: 900px;
+  margin-top: -600px;
+  position: absolute
+}
+
+.specinfocontainer{
+ list-style-type: none;
+ margin-top: 10px;
+ margin-bottom: 10px  
+}
+
+.specinfoitem{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ebe7e7;
+  color: #000000;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.specinfoitemspace{
+ padding-left: 800px;
+}
+
+.button4{
+  background-color: #1b68db;
+  border: none;
+  color: white;
+  padding: 12px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 80px;
+  cursor: pointer;  
+  border-radius:2em;
+  /* position: absolute */
+}
+
+.button4:hover{
+  background: #1a5ec4
+}
+
+/* Signup and Login page styles */
+.titlesignuplogin{
+  color: #000000;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 550px;
+  margin-top: 100px;
+  position: absolute
+}
+
+.labeltitle{
+  color: #000000;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 20px;
+}
+
+.inputcontainer{
+  margin-left: 300px;
+  margin-top: 200px;
+  width: 300px;
+  height: 50px;
+  position: absolute 
+}
+
+.inputinfo{
+  width: 350px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #b8b8c8;
+  border-radius: 2em;
+  font-size: 10pt;
+  float: left;
+  color: #343d46;
+  padding-left: 5px;
+}
+
+.inputcontainer2{
+  margin-left: 300px;
+  margin-top: 300px;
+  width: 300px;
+  height: 50px;
+  position: absolute 
+}
+
+
+.inputcontainer3{
+  margin-left: 700px;
+  margin-top: 200px;
+  width: 300px;
+  height: 50px;
+  position: absolute 
+}
+
+.inputcontainer4{
+  margin-left: 700px;
+  margin-top: 300px;
+  width: 300px;
+  height: 50px;
+  position: absolute 
+}
+
+.inputcontainer5{
+  margin-left: 450px;
+  margin-top: 200px;
+  width: 300px;
+  height: 50px;
+  position: absolute 
+}
+
+.inputcontainer6{
+  margin-left: 450px;
+  margin-top: 300px;
+  width: 300px;
+  height: 50px;
+  position: absolute 
+}
+
+.button5{
+  background-color: #1b68db;
+  border: none;
+  color: white;
+  padding: 12px 140px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 420px;
+  margin-left: 500px;
+  cursor: pointer;  
+  border-radius:2em;
+  position: absolute
+}
+
+.button5:hover{
+  background: #1a5ec4
+}
+
+.button6{
+  background-color: #1bdb7b;
+  border: none;
+  color: white;
+  padding: 12px 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 500px;
+  margin-left: 500px;
+  cursor: pointer;  
+  border-radius:2em;
+  position: absolute
+}
+
+.button6:hover{
+  background: #1ac47d
+
+}
+
+
+
+
+
+
