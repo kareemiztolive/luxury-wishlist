@@ -16,6 +16,7 @@ The more cars you love,the more you can add to the seed file.You can have as man
 This part of the project was done deliberately to give all car lovers the ability to customize the app however they want.
 
 ## App Homepage
+![luxury wishlist app demo](demo/homepagegif.gif)
 
 ## The Project was created using The React Javascript Library
 ### Frontend Stack
@@ -27,4 +28,22 @@ This part of the project was done deliberately to give all car lovers the abilit
 #### Knex.Js - Used to communicate with the SQL database
 #### Express.js - Managed the backend server of the application, handled all client,server request and responses.
 
-## Mercedes Benz
+## Mercedes Benz                                                           
+![luxury wishlist app demo](demo/mercedesgif.gif)
+## BMW
+![luxury wishlist app demo](demo/bmwgif.gif)
+## Lamborghini
+![luxury wishlist app demo](demo/lamborghinigif.gif)
+## Ferrari
+![luxury wishlist app demo](demo/ferrarigif.gif)
+## Rolls Royce
+![luxury wishlist app demo](demo/rollsroycegif.gif)
+
+## Full description and information for all of the cars
+![luxury wishlist app demo](demo/allcarsgif.gif)                         
+![luxury wishlist app demo](demo/allcarsgif2.gif)
+
+### Link to full app Demo
+https://youtu.be/8zoou_2jjLU
+
+
