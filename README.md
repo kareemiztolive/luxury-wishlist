@@ -15,6 +15,9 @@ that is always an option. All you have to do is navigate to the backend folder a
 The more cars you love,the more you can add to the seed file.You can have as many cars as you want!
 This part of the project was done deliberately to give all car lovers the ability to customize the app however they want.
 
+## App Homepage
+![luxury wishlist app demo](demo/ezgif.com-gif-maker.gif)
+
 ## The Project was created using The React Javascript Library
 ### Frontend Stack
 #### React - Frontend User Interface
@@ -24,3 +27,5 @@ This part of the project was done deliberately to give all car lovers the abilit
 #### Node.js - Managed the entire backend and database of the application
 #### Knex.Js - Used to communicate with the SQL database
 #### Express.js - Managed the backend server of the application, handled all client,server request and responses.
+
+## Mercedes Benz
