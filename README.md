@@ -16,7 +16,6 @@ The more cars you love,the more you can add to the seed file.You can have as man
 This part of the project was done deliberately to give all car lovers the ability to customize the app however they want.
 
 ## App Homepage
-![luxury wishlist app demo](demo/ezgif.com-gif-maker.gif)
 
 ## The Project was created using The React Javascript Library
 ### Frontend Stack
